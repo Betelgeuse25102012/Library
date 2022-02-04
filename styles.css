@@ -1,0 +1,301 @@
+    @import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Playfair+Display&family=Roboto&display=swap");
+
+    body {
+        background-color: #ffe4c4; /* цвет фона страницы */
+        color: #0f141e; /* основной цвет текста страницы */
+        font-size: 16px; /* размер шрифта */
+        font-weight: normal; /* толщина шрифта  */
+        font-family: "Playfair Display", serif; /* семейство шрифта */
+        /* шрифт можно вставить из предлагаемых или сделать ссылку с сайта https://fonts.google.com) */
+        /* шрифту можно задать значения для каждого параметра или  прописать в одной строке*/
+        /* font: normal 16px 'Roboto', sans-serif; */
+        }
+    
+    p {
+        text-indent: 20px; /*определяет размер отступа (пустого места) перед строкой в текстовом блоке */
+        margin: 0px;
+        padding: 0px;
+        }
+
+    h2, h3, h4 {
+        margin: 0px;
+        padding: 0px;
+        }
+
+    a {
+        text-decoration: none;
+        }
+
+    .page {
+        width: auto;
+        padding: 15px;
+        }
+
+    .color_LightSalmon {
+        background: #ffa07a;
+        }
+
+    .color_DarkOrange {
+        background: #ff8c00;
+        }
+
+    .color_Yellow {
+        background: #ffff66;
+        }
+
+  
+
+    .color_Aqua {
+        background: #00ffff;
+        }
+
+    .color_DeepSkyBlue {
+        background: #00bfff;
+        }
+
+    
+
+        /* <!-- Заголовок --> */
+    .Library {
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+        }
+        /*  @media screen and (max-width: 1000px) {
+                .Library {
+                    font-size: 70%;}
+                }
+                    @media screen and (max-width: 640px) {
+                .Library {
+                    font-size: 50%;}
+                }
+                @media screen and (max-width: 450px) {
+                .Library {
+                    font-size: 30%;}
+                } */
+
+    .inscription {
+        font-family: "Playfair Display", serif;
+        color: #f5deb3;
+        font-style: italic;
+        position: absolute;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;        
+        top: 0%;
+        left: 2%;
+        }
+
+    .Library_img {
+        width: 100%;
+        border-radius: 20px;
+        }
+        
+    .card {
+        width: auto;
+        padding: 15px 20px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        }
+
+    .Sasha {
+        width: 150px;
+        margin-right: 10px;
+        }
+
+    .Yasya {
+        width: 150px;
+        margin-right: 10px;
+        }
+
+/* <!-- Блок 1 --> */
+
+.My_bedtime_story h3 {
+    text-align: center;
+    color: #F0E68C;
+    font-style: italic;
+    margin: 0;
+    }
+
+.List_my_bedtime_story h4{
+    color: #000;
+    font-style: italic;
+    margin-top: 10px;
+    }
+
+.List_my_bedtime_story {
+   display: flex;
+    }
+
+/* <!-- Блок 2 --> */
+
+.My_first_books h3 {
+    text-align: left;
+    color: #9370DB;
+    font-style: italic;
+    }
+
+ 
+/* <!-- Блок 3 --> */
+
+    .list_authors {
+        background-color: #ffff66;
+        border-radius: 20px;
+        width: auto;
+        padding: 15px; /* внутренний отступ, одинаковый для всех сторон */
+        /* padding: 15px 40px; внутренний отступ, верх и низ - 15, левый и правый 40 */
+        /* padding: 10px 15px 20px 25px; внутренний отступ, верх(top) 10, правый(right) 15, низ(bottom) 20, левый(left) 25*/
+        /*  border: 5px solid #0073e6;граница блока ширина, тип(сплошная), цвет */
+        margin-bottom: 20px; /* внешний нижний отступ */
+        }
+
+    .list_authors a {
+        text-decoration: none; /* Отменяем подчеркивание у ссылки */
+        color: #000; /* Цвет ссылки */
+        margin: 0; /* Отменяем отступы */
+        font-style: italic; /* курсив */
+        text-decoration: none; /* Убираем подчеркивание у ссылок */
+        /* text-transform: capitalize;  /* Первый символ каждого слова в предложении будет заглавным */
+        /* letter-spacing: 5px; oпределяет межбуквенное расстояние в тексте*/
+        /* word-spacing: 0%; устанавливает длину пробела между словами и между тегами */
+        }
+
+    .list_authors a:visited {
+        color: #6fbdc0; /* Цвет посещённой ссылки */
+        }
+
+    .list_authors a:hover {
+        color: #5f3747; /* Цвет ссылки при наведении на нее курсора мыши */
+        text-decoration: underline; /* Добавляем подчеркивание */
+        }
+
+    .list_head {
+        text-align: center;
+        color: #bc8f8f;
+        font-style: italic;
+        margin-bottom: 15;
+        }
+    .list_authors_all {
+        display: flex;
+        }
+    .list_authors_all div {
+        width: 33%;
+        }
+    .list_authors_all h4 {
+        text-align: left;
+        }
+
+
+/* <!-- Блок 4 --> */
+
+.color_LimeGreen {
+    background: #adebad;
+    }
+    
+.list_future_plans h3 {
+    text-align: right;
+    color: #f08080;
+    font-style: italic;
+    margin-right: 100px;
+    }
+
+.color_LimeGreen h4 {
+    color: #cf5252;
+    font-style: italic;
+    }    
+
+.picture_book {
+    float:left;
+    max-width: 150px;
+    max-height: 223px;
+    margin-right: 10px;
+    }
+    
+.Text {
+    min-height: 223px;
+    margin-bottom: 5px;
+    }
+
+.Chy {
+    color: #128318;
+    text-align: right;
+}
+
+.Bugumotu {
+    float:left;
+    max-width: 200px;
+    margin-right: 10px;
+    }
+
+.Text_Bugumotu {
+    min-height: 205px;
+    margin-bottom: 5px;
+    }
+    
+/* <!-- Блок 5 --> */
+
+    .list_sister h3 {
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        color: #e0ffff;
+        font-style: italic;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        }
+
+/* <!-- Блок 6 --> */
+
+.list_interesting h3 {
+    color: #0000ff;
+    font-style: italic;
+    }
+
+/* <!-- Блок 7 --> */
+
+.color_Purple {
+    background: #ffb3ff;
+    font-style: italic;
+    }
+    
+.list_heroes {
+    text-align: center;
+    color: #ba55d3;
+    margin-bottom: 10px;
+    }
+
+.Carlson_text h4 {
+    text-align: left;
+    color:#FF6347;
+    }    
+    
+.Carlson_img {
+    float:left;
+    max-width: 150px;
+    max-height: 225px;
+    margin-right: 10px;
+    }
+
+.Carlson_text {
+    min-height: 230px;
+    margin-bottom: 10px;
+    }    
+
+.Panchoxa_text h4 {
+    text-align: right;
+    color: #FF4500;
+    margin-right: 10px;
+    }
+    
+.Panchoxa_img {
+    float:right;
+    max-width: 300px;
+    max-height: 225px;
+    margin-left: 10px;
+    }
+    
+.Panchoxa_text {
+    min-height: 230px;
+    margin-bottom: 10px;
+    }
+
+/* <!--  --> */
